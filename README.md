@@ -42,10 +42,7 @@ I actively solve algorithmic problems and implement complex data structures from
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" alt="Roman's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=dracula" alt="Roman's Top Languages" />
-</p>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk)](https://github.com/romanshkurdziuk/github-readme-stats)
 
 ---
 
