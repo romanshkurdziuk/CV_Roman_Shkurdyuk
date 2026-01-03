@@ -42,14 +42,14 @@ I actively solve algorithmic problems and implement complex data structures from
 
 ### 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=radical&count_private=true" height="180" alt="Roman's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=radical" height="180" alt="Top Languages" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" alt="Roman's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=dracula" alt="Roman's Top Languages" />
+</p>
 
 ---
 
 ### 📫 Connect with Me
 
 *   📧 **Email:** [romansh0106@gmail.com](mailto:romansh0106@gmail.com)
-*   ✈️ **Telegram:** [@Romashku01]
+*   ✈️ **Telegram:** [@Romashku01](https://t.me/Romashku01)
