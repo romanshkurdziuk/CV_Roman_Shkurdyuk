@@ -1,58 +1,113 @@
-# Hi there, I'm Roman! 👋
+# Hi, I'm Roman Shkurdziuk 👋
 
-### 🎓 Junior C++ Developer | Student at BSU (FAMCS)
-
-I am a passionate **Software Engineer** focusing on **System Programming**, **Game Development (Qt)**, and **High-Performance Applications**. Currently studying Applied Mathematics at the Belarusian State University.
-
-I love digging deep into how things work under the hood — from memory management and pointers to multi-threading synchronization and OS kernels.
+<p align="center">
+  <em>A C++ Systems Developer specializing in Multithreading, IPC, and Performance.</em>
+</p>
 
 ---
 
-### 🛠 Tech Stack & Tools
+I am a developer passionate about building efficient and reliable software systems. I enjoy diving into the low-level aspects of operating systems to write fast and predictable code. My strong suit is hands-on experience in solving classic synchronization and inter-process communication challenges using the **Windows API**.
 
-**Languages**  
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+- 🔭 **Core Specialization:** Systems Programming in C++ on the Windows platform.
+- 🌱 **Key Interests:** Concurrency, Inter-Process Communication (IPC), Software Architecture.
+- 💡 **My Approach:** I focus on writing clean, testable code using modern tools like CMake and GoogleTest.
 
-**Frameworks & Libraries**  
-![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Crow](https://img.shields.io/badge/Crow-REST_API-black?style=for-the-badge) ![Boost](https://img.shields.io/badge/boost-%23E37400.svg?style=for-the-badge&logo=boost&logoColor=white) ![GoogleTest](https://img.shields.io/badge/GoogleTest-Quality-green?style=for-the-badge)
+---
 
-**System & Tools**  
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23064F8C.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+### 🛠️ Tech Stack & Skills
+
+<table>
+  <tr>
+    <td align="center" width="180">
+      <strong>Languages</strong>
+    </td>
+    <td>
+      <a href="https://isocpp.org/" target="_blank"><img src="https://img.shields.io/badge/C++-17-blue.svg?style=for-the-badge&logo=c%2B%2B"></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Systems Programming</strong>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows_API-Win32-0078D6.svg?style=for-the-badge&logo=windows">
+      <img src="https://img.shields.io/badge/Multithreading-orange?style=for-the-badge">
+      <img src="https://img.shields.io/badge/IPC-blueviolet?style=for-the-badge">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Synchronization Primitives</strong>
+    </td>
+    <td>
+      <code>Mutex</code>, <code>Semaphore</code>, <code>Event</code>, <code>Critical Section</code>
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <strong>Algorithms & Data Structures</strong>
+    </td>
+    <td>
+      <code>Dijkstra</code>, <code>DFS/BFS</code>, <code>Dynamic Programming</code>, <code>Segment Trees</code>, <code>DSU</code>, <code>BST</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Tools & Toolchain</strong>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/CMake-064F8C.svg?style=for-the-badge&logo=cmake">
+      <img src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white">
+      <img src="https://img.shields.io/badge/GoogleTest-4285F4.svg?style=for-the-badge&logo=google&logoColor=white">
+      <img src="https://img.shields.io/badge/VS_Code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/romanshkurdziuk">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=dracula" />
+  </a>
+</p>
 
 ---
 
 ### 🚀 Featured Projects
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **🎮 2D Space Shooter** | A full-featured game engine utilizing **Qt 6 Graphics View**. Features a **Finite State Machine** for AI, Wave Manager, and modular architecture with Signals & Slots. | `C++17` `Qt 6` `FSM` `CMake` |
-| **⚡ Multi-threaded REST API** | High-performance backend service for task management. Implements **Thread Safety** (Mutexes), custom persistence, and **MVC** architecture. | `C++17` `Crow` `JSON` `Multithreading` |
-| **🖥️ WinAPI Client-Server** | Database management system using low-level OS mechanisms. Solves the **Readers-Writers** problem via Named Pipes and Critical Sections. | `C++` `WinAPI` `IPC` `Sync` |
-| **🧮 Math Library** | Industrial-grade math library with **100% Unit Test coverage**. Optimized for memory usage and type safety. | `C++17` `GoogleTest` `Algorithms` |
+<details>
+  <summary><strong>🔗 Client-Server System via Named Pipes (OS Lab 5)</strong></summary>
+  
+  *   **Description:** A multithreaded server and client application for remote access to a binary file. Implemented a locking mechanism for safe concurrent operations.
+  *   **Key Technologies:** `C++17`, `Windows API`, `Named Pipes`, `CreateThread`, `Mutex` (implicitly via locking logic).
+  *   **Architecture:** The server handles each client in a dedicated thread, ensuring high responsiveness.
+</details>
 
----
+<details>
+  <summary><strong>🚦 Thread Synchronization Simulator (OS Lab 3)</strong></summary>
+  
+  *   **Description:** An application that simulates a thread race for a shared resource (an array) and implements a mechanism for manual **deadlock** resolution.
+  *   **Key Technologies:** `C++17`, `WinAPI`, `Critical Section`, `Events`, `RAII (ScopedLock)`.
+  *   **Architecture:** The core logic is encapsulated in a dedicated controller class, with `main` serving only as an entry point.
+</details>
 
-### 🧠 Algorithmic Background
+<details>
+  <summary><strong>🔄 Inter-Process Communication via Ring Buffer (OS Lab 4)</strong></summary>
+  
+  *   **Description:** A messaging system between multiple sender processes and a single receiver process via a shared file organized as a **ring buffer (FIFO)**.
+  *   **Key Technologies:** `C++17`, `WinAPI`, `Mutex`, `Semaphore`, `Shared Memory (File-backed)`.
+  *   **Tooling:** The project is fully configured with `CMake` and covered by **integration tests**.
+</details>
 
-I actively solve algorithmic problems and implement complex data structures from scratch:
-*   **Data Structures:** Segment Trees, DSU, BST, HashMaps.
-*   **Algorithms:** Dijkstra, DFS/BFS, Dynamic Programming, Huffman Coding.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/romanshkurdziuk">
-    <img src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" alt="Roman's GitHub Stats" />
-  </a>
-  <a href="https://github.com/romanshkurdziuk">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=dracula" alt="Roman's Top Languages" />
-  </a>
-</p>
 ---
 
 ### 📫 Connect with Me
 
-*   📧 **Email:** [romansh0106@gmail.com](mailto:romansh0106@gmail.com)
-*   ✈️ **Telegram:** [@Romashku01](https://t.me/Romashku01)
+<p align="left">
+  <strong>Email:</strong> <a href="mailto:romansh0106@gmail.com">romansh0106@gmail.com</a><br/>
+  <strong>Telegram:</strong> <a href="https://t.me/Romashku01">@Romashku01</a>
+</p>
