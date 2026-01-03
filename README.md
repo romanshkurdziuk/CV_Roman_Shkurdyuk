@@ -40,10 +40,16 @@ I actively solve algorithmic problems and implement complex data structures from
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk)](https://github.com/anuraghazra/github-readme-stats)
-
+<p align="center">
+  <a href="https://github.com/romanshkurdziuk">
+    <img src="https://github-readme-stats.vercel.app/api?username=romanshkurdziuk&show_icons=true&theme=dracula&count_private=true&include_all_commits=true" alt="Roman's GitHub Stats" />
+  </a>
+  <a href="https://github.com/romanshkurdziuk">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=romanshkurdziuk&layout=compact&theme=dracula" alt="Roman's Top Languages" />
+  </a>
+</p>
 ---
 
 ### 📫 Connect with Me
